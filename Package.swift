@@ -33,7 +33,7 @@ let package = Package(
       .package(url: "https://github.com/apple/swift-docc-plugin.git", from: "1.3.0"),
       .package(url: "https://github.com/apple/swift-http-types.git", from: "1.0.2"),
       .package(url: "https://github.com/apple/swift-log.git", from: "1.5.3"),
-      .package(url: "https://github.com/fumoboy007/swift-retry.git", .upToNextMinor(from: "0.2.2")),
+      .package(url: "https://github.com/zshannon/swift-retry.git", from: "0.3.0"),
    ],
    targets: [
       .target(
